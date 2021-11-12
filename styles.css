@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color:#124265;
+    height: 60px;
+}
+
+a:hover, select:hover {
+    color: #4799f7;
+  }
+
+.title1{
+    margin-left: 60px;
+}
+
+.back{
+    background: url("https://images8.alphacoders.com/682/thumb-1920-682878.jpg") no-repeat center ;
+}
+
+ul{
+    word-spacing: 20px;
+    list-style-type: none;  
+}
+
+.position{
+    display: inline;
+}
+
+.underlined {
+    text-decoration: none;
+    color:#124265;   
+}
+
+.blue{
+    color:#4799f7;
+}
+
+.select{
+  border: none;
+  color: #124265;
+}
+
+.btn{
+    background-color: #2487ce;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+    margin-right: 40px;
+    border: #2487ce;
+    border-collapse: collapse;
+    border-style: solid;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #2487ce;
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    line-height: 5px;
+    color:#124265;
+}
+
+.center{
+    text-align: center;
+}
+
+.section1 {
+    width: 40%;
+    padding: 20px;
+    height: 250px;
+    text-align: center;
+}
+
+.section2{
+    width: 100%;
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.articles{
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+    width: fit-content;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.blue2{
+    color: #124265;
+}
